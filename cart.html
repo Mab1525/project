@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View your shopping cart, modify your order, and checkout.">
+    <title>Handmade Goods - Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="welcome-banner">
+            <h1>Handmade Goods</h1>
+            <p>Crafting with love, delivering with care.</p>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="artist-stories.html">Artist Stories</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart-items">
+            <h2>Your Cart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Elegant Necklace</td>
+                        <td>$49.99</td>
+                        <td><input type="number" value="1" min="1" /></td>
+                        <td>$49.99</td>
+                        <td><button>Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Artisan Vase</td>
+                        <td>$39.99</td>
+                        <td><input type="number" value="1" min="1" /></td>
+                        <td>$39.99</td>
+                        <td><button>Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Custom T-Shirt</td>
+                        <td>$29.99</td>
+                        <td><input type="number" value="1" min="1" /></td>
+                        <td>$29.99</td>
+                        <td><button>Remove</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="cart-total">
+                <p>Total: $119.97</p>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>© 2024 Handmade Goods | All Rights Reserved</p>
+            <a href="mailto:contact@handmadegoods.com">Email Us</a>
+            <p><a href="terms.html">Terms & Conditions</a> | <a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+</html>
